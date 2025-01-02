@@ -205,10 +205,6 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
   - Python 3.7 o superior.
   - PyQt5.
 
----  
-
-Aquí tienes la parte del archivo README para tu programa **Simple EQSILA**:
-
 ---
 
 # Simple EQSILA
