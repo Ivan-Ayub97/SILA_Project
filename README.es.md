@@ -112,12 +112,13 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 
 ---
 
-## Requisitos del Sistema
+## Requisitos del sistema para instalar el archivo .exe
+- **Sistema operativo:** Windows 7 o superior.
 
-- **Sistema Operativo:** Windows 7 o superior.
-- **Dependencias:**
-  - Python 3.7 o superior.
-  - PyQt5.
+## Requisitos del sistema para el desarrollo
+- **Sistema operativo:** Windows 7 o superior.
+- Python 3.7 o superior.
+- PyQt5.
 
 ---
 
@@ -198,12 +199,13 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 
 ---
 
-### Requisitos del Sistema
+## Requisitos del sistema para instalar el archivo .exe
+- **Sistema operativo:** Windows 7 o superior.
 
-- **Sistema Operativo:** Windows 7 o superior.
-- **Dependencias:**
-  - Python 3.7 o superior.
-  - PyQt5.
+## Requisitos del sistema para el desarrollo
+- **Sistema operativo:** Windows 7 o superior.
+- Python 3.7 o superior.
+- PyQt5.
 
 ---
 
@@ -359,12 +361,13 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 
 ---
 
-## Requisitos del Sistema
+## Requisitos del sistema para instalar el archivo .exe
+- **Sistema operativo:** Windows 7 o superior.
 
-- **Sistema Operativo:** Windows 7 o superior.
-- **Dependencias:**
-  - Python 3.7 o superior.
-  - PyQt5.
+## Requisitos del sistema para el desarrollo
+- **Sistema operativo:** Windows 7 o superior.
+- Python 3.7 o superior.
+- PyQt5.
 
 ---
 
@@ -462,12 +465,14 @@ La interfaz de usuario de **SILA KeyMap** se compone de varios elementos:
 
 ---
 
-## Requisitos del Sistema
+## Requisitos del sistema para instalar el archivo .exe
+- **Sistema operativo:** Windows 7 o superior.
 
-- **Sistema Operativo:** Windows 7 o superior.
-- **Dependencias:**
-  - Python 3.7 o superior.
-  - Bibliotecas necesarias para MIDI y GUI.
+## Requisitos del sistema para el desarrollo
+- **Sistema operativo:** Windows 7 o superior.
+- Python 3.7 o superior.
+- PyQt5.
+- Bibliotecas necesarias para MIDI y GUI.
 
 ---
 
@@ -561,12 +566,14 @@ La interfaz de **SoundWIDI** se divide en dos secciones principales: el panel de
 
 ---
 
-## Requisitos del Sistema
+## Requisitos del sistema para instalar el archivo .exe
+- **Sistema operativo:** Windows 7 o superior.
 
-- **Sistema Operativo:** Windows 10 o superior.
-- **Dependencias:**
-  - Python 3.8 o superior.
-  - Bibliotecas necesarias para análisis de audio y visualización gráfica.
+## Requisitos del sistema para el desarrollo
+- **Sistema operativo:** Windows 7 o superior.
+- Python 3.7 o superior.
+- PyQt5.
+- Bibliotecas necesarias para análisis de audio y visualización gráfica.
 
 ---
 
@@ -655,12 +662,14 @@ Para cerrar la aplicación, simplemente ciérrala desde la esquina superior dere
 
 ---
 
-## Requisitos del Sistema
+## Requisitos del sistema para instalar el archivo .exe
+- **Sistema operativo:** Windows 7 o superior.
 
-- **Sistema Operativo:** Windows 10 o superior.
-- **Dependencias:**
-  - Python 3.8 o superior.
-  - Bibliotecas necesarias para manejo de audio y visualización gráficas
+## Requisitos del sistema para el desarrollo
+- **Sistema operativo:** Windows 7 o superior.
+- Python 3.7 o superior.
+- PyQt5.
+- Bibliotecas necesarias para manejo de audio y visualización gráficas
 
  ---
 EXTRA
