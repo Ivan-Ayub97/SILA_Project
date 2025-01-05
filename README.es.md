@@ -1,7 +1,6 @@
 # SILA-Project (Studio Instrument Launch Assistant Project)
 
 **Desarrollado por Iván Ayub**
-
 ![SILA_Projecticon](Studio_Instrument_Launch_Assistant.png)
 
 SILA-Project es un conjunto de herramientas integradas diseñadas para optimizar la gestión, personalización y ejecución de aplicaciones relacionadas con la producción musical. Este ecosistema incluye múltiples componentes, siendo **SILA-Box** la solución principal que combina estas herramientas en un único launcher accesible y práctico.
@@ -38,10 +37,9 @@ SILA-Project está diseñado principalmente para **entusiastas y principiantes e
 
 ---
 
-# SILA-Box 
+# SILA-Box
 
 **Desarrollado por Iván Ayub**
-
 
 ![SILA-Projecticon](assets/SILABox.png)
 
@@ -58,8 +56,9 @@ SILA-Project está diseñado principalmente para **entusiastas y principiantes e
 
 ## Aviso Legal
 
-SILA-Box incluye un botón para instalar Audacity como una de las muchas opciones dentro del ecosistema SILA-Project.  
-- **Audacity** es un software de código abierto desarrollado y mantenido por su comunidad.  
+SILA-Box incluye un botón para instalar Audacity como una de las muchas opciones dentro del ecosistema SILA-Project.
+
+- **Audacity** es un software de código abierto desarrollado y mantenido por su comunidad.
 - **SILA-Project, SILA-Box y el desarrollador Iván Ayub no son responsables de su desarrollo o distribución oficial.**
 
 El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro de un DAW por defecto, sin alterar ni modificar el software original.
@@ -69,14 +68,17 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 ## Cómo Usar SILA-Box
 
 1. **Ventana Principal:**
+
    - Encuentra los botones organizados por herramientas y aplicaciones de estudio.
    - Identifica cada programa mediante su icono y nombre.
 
 2. **Lanzamiento de Programas:**
+
    - Haz clic en el botón del programa deseado para iniciarlo.
    - Si ocurre algún error, se mostrará un mensaje con detalles del problema.
 
 3. **Instalar Audacity:**
+
    - Haz clic en el botón "Instalar Audacity" para acceder al instalador oficial y configurar esta herramienta en tu computadora.
 
 4. **Gestión de Iconos:**
@@ -86,39 +88,39 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 ---
 
 ## Capturas
+
 ![Captura de la Aplicación](assets/SSSILABox.png)
 
 ---
 
 ## Preguntas Frecuentes (FAQ)
 
-1. **¿Qué es SILA-Project?**  
+1. **¿Qué es SILA-Project?**
    SILA-Project es un conjunto de herramientas diseñadas para facilitar la producción musical, con **SILA-Box** como launcher principal.
 
-2. **¿Qué tipo de archivos puedo ejecutar con SILA-Box?**  
+2. **¿Qué tipo de archivos puedo ejecutar con SILA-Box?**
    SILA-Box está diseñado para ejecutar archivos ejecutables (.exe).
 
-3. **¿Cómo puedo agregar más programas a SILA-Box?**  
+3. **¿Cómo puedo agregar más programas a SILA-Box?**
    Los programas deben agregarse manualmente al archivo de configuración en el código fuente.
 
-4. **¿Qué sucede si un programa no se ejecuta correctamente?**  
+4. **¿Qué sucede si un programa no se ejecuta correctamente?**
    SILA-Box mostrará un mensaje con detalles sobre el error ocurrido.
 
-5. **¿Dónde se guardan los datos de configuración de SILA-Box?**  
+5. **¿Dónde se guardan los datos de configuración de SILA-Box?**
    Se almacenan en la carpeta `AppData` del usuario, donde se guardan las configuraciones del usuario.
 
-6. **¿Puedo modificar los iconos de los programas?**  
+6. **¿Puedo modificar los iconos de los programas?**
    Sí, puedes actualizar la ruta del icono en la configuración del programa.
 
 ---
 
-## Requisitos del sistema para instalar el archivo .exe
-- **Sistema operativo:** Windows 7 o superior.
+## Requisitos del Sistema
 
-## Requisitos del sistema para el desarrollo
-- **Sistema operativo:** Windows 7 o superior.
-- Python 3.7 o superior.
-- PyQt5.
+- **Sistema Operativo:** Windows 7 o superior.
+- **Dependencias:**
+  - Python 3.7 o superior.
+  - PyQt5.
 
 ---
 
@@ -146,18 +148,21 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 
 1. **Ventana Principal:**
    La ventana principal de SILA-GUI está dividida en dos secciones:
+
    - **Explorador de Archivos (izquierda):** Permite navegar por el sistema de archivos para seleccionar archivos ejecutables (.exe). Incluye botones como "Back" y "Go to Root" para facilitar la navegación.
    - **Área Principal (derecha):**
-      - **Lista de Instrumentos:** Muestra cada instrumento agregado con su botón de ejecución e indicador de estado.
-      - **Área de Registro:** Proporciona información y notificaciones sobre las acciones realizadas.
-      - **Botones de Acción:** Incluyen opciones como "Añadir Instrumento", "Exportar a CSV" y "Configuraciones".
+     - **Lista de Instrumentos:** Muestra cada instrumento agregado con su botón de ejecución e indicador de estado.
+     - **Área de Registro:** Proporciona información y notificaciones sobre las acciones realizadas.
+     - **Botones de Acción:** Incluyen opciones como "Añadir Instrumento", "Exportar a CSV" y "Configuraciones".
 
 2. **Añadir un Instrumento:**
+
    - Navega a un archivo ejecutable (.exe) desde el Explorador de Archivos.
    - Haz clic en "Add from Explorer" y asigna un nombre al instrumento en el cuadro de diálogo que aparece.
    - El instrumento se añadirá a la lista con su botón de ejecución correspondiente.
 
 3. **Lanzar un Instrumento:**
+
    - Haz clic en el botón asociado al instrumento desde el área principal.
    - El estado del proceso será monitoreado, y el indicador de estado cambiará a verde si el instrumento está en ejecución.
 
@@ -169,43 +174,42 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 ---
 
 ## Capturas
+
 ![Captura de la Aplicación](assets/SSSILA-GUI.png)
 
 ---
 
-
 ### FAQ - Preguntas Frecuentes
 
-1. **¿Qué tipo de archivos puedo agregar a SILA-GUI?**  
+1. **¿Qué tipo de archivos puedo agregar a SILA-GUI?**
    Solo se pueden agregar archivos ejecutables (.exe).
 
-2. **¿Cómo puedo eliminar un instrumento de la lista?**  
+2. **¿Cómo puedo eliminar un instrumento de la lista?**
    Haz clic en "Delete" junto al instrumento que desees eliminar y confirma la acción.
 
-3. **¿Qué pasa si intento lanzar un instrumento que ya está en ejecución?**  
+3. **¿Qué pasa si intento lanzar un instrumento que ya está en ejecución?**
    SILA-GUI monitorea los procesos en tiempo real. Si el instrumento ya está corriendo, se notificará en el área de registro y no se ejecutará nuevamente.
 
-4. **¿Cómo exporto mis instrumentos a un archivo CSV?**  
+4. **¿Cómo exporto mis instrumentos a un archivo CSV?**
    Haz clic en "Export to CSV" y selecciona una ubicación para el archivo.
 
-5. **¿Cómo cambio la configuración del programa?**  
+5. **¿Cómo cambio la configuración del programa?**
    Actualmente, las configuraciones no están implementadas, pero el botón "Settings" está disponible para futuras actualizaciones.
 
-6. **¿Dónde se guardan los instrumentos que añado?**  
+6. **¿Dónde se guardan los instrumentos que añado?**
    Los instrumentos se guardan en un archivo JSON dentro de la carpeta de usuario del sistema.
 
-7. **¿Qué hago si un instrumento no se lanza correctamente?**  
+7. **¿Qué hago si un instrumento no se lanza correctamente?**
    Verifica la ruta del ejecutable y revisa la consola de registros para más detalles. Si el problema persiste, elimina y vuelve a agregar el instrumento.
 
 ---
 
-## Requisitos del sistema para instalar el archivo .exe
-- **Sistema operativo:** Windows 7 o superior.
+### Requisitos del Sistema
 
-## Requisitos del sistema para el desarrollo
-- **Sistema operativo:** Windows 7 o superior.
-- Python 3.7 o superior.
-- PyQt5.
+- **Sistema Operativo:** Windows 7 o superior.
+- **Dependencias:**
+  - Python 3.7 o superior.
+  - PyQt5.
 
 ---
 
@@ -228,59 +232,62 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 
 ### Aviso Legal
 
-**Simple EQSILA** incluye la capacidad de cargar y reproducir archivos de audio, aplicar ecualización en tiempo real y exportar el audio modificado.  
+**Simple EQSILA** incluye la capacidad de cargar y reproducir archivos de audio, aplicar ecualización en tiempo real y exportar el audio modificado.
+
 - **Simple EQSILA** es una herramienta de código abierto, y sus funcionalidades son proporcionadas sin garantías de ningún tipo.
-  
+
 ---
 
 ### Cómo Usar Simple EQSILA
 
 1. **Ventana Principal:**
+
    - En la ventana principal, encontrarás botones organizados por herramientas y aplicaciones.
    - Cada programa se identifica por su icono y nombre.
 
 2. **Cargar y Reproducir Audio:**
+
    - Haz clic en el botón "Load Audio" para cargar un archivo de audio.
    - Haz clic en "Play" para reproducir el audio con la ecualización en tiempo real aplicada.
    - Si el audio no se carga correctamente, aparecerá un mensaje de error.
 
 3. **Aplicar un Preset:**
    - Accede al menú "Presets" y selecciona uno de los ajustes predefinidos (por ejemplo, "Cut Bass" o "Boost Treble") para aplicar rápidamente una configuración de ecualización.
-   
 4. **Ajustar las Bandas de Frecuencia:**
+
    - Usa los deslizadores para ajustar las ganancias de las distintas bandas de frecuencia entre -10 y +10 dB.
 
 5. **Ajustar el Volumen Maestro:**
    - Modifica el volumen general de la salida de audio utilizando el control deslizante de volumen maestro.
-   
 6. **Exportar Audio:**
    - Después de realizar ajustes, haz clic en "Export Audio" para guardar el archivo de audio modificado.
 
 ---
 
 ### Capturas de Pantalla
+
 ![Aplicación Screenshot](assets/SSSimpleEQSILA.png)
 
 ---
 
 ### Preguntas Frecuentes (FAQ)
 
-1. **¿Qué es Simple EQSILA?**  
+1. **¿Qué es Simple EQSILA?**
    Simple EQSILA es una herramienta de ecualización en tiempo real para audio, diseñada para ajustar el sonido con precisión utilizando múltiples bandas de frecuencia.
 
-2. **¿Qué tipos de archivos puedo cargar?**  
+2. **¿Qué tipos de archivos puedo cargar?**
    Simple EQSILA es compatible con archivos de audio en formatos como MP3, WAV y FLAC.
 
-3. **¿Puedo personalizar los iconos de las aplicaciones?**  
+3. **¿Puedo personalizar los iconos de las aplicaciones?**
    Sí, los iconos utilizados en la interfaz pueden ser modificados desde el archivo de configuración.
 
-4. **¿Cómo puedo agregar más programas a Simple EQSILA?**  
+4. **¿Cómo puedo agregar más programas a Simple EQSILA?**
    Los programas se deben agregar manualmente en el código fuente del programa.
 
-5. **¿Dónde se almacenan los datos de configuración de Simple EQSILA?**  
+5. **¿Dónde se almacenan los datos de configuración de Simple EQSILA?**
    Los datos de configuración se guardan en la carpeta `AppData` del usuario.
 
-6. **¿Qué hacer si el audio no se reproduce correctamente?**  
+6. **¿Qué hacer si el audio no se reproduce correctamente?**
    Si se detecta un error durante la reproducción, el programa mostrará un mensaje con los detalles del problema.
 
 ---
@@ -310,6 +317,7 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 ### Interfaz de Usuario
 
 - **Menú de Opciones:**
+
   - Opción para alternar entre los temas oscuro y claro.
 
 - **Área Principal:**
@@ -324,19 +332,24 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 ### Pasos para Convertir Archivos de Audio
 
 1. **Importar Archivos:**
+
    - Haz clic en "Importar Archivos" y selecciona los archivos deseados desde tu sistema.
    - Los archivos seleccionados aparecerán en la lista de archivos.
 
 2. **Eliminar Archivos No Deseados:**
+
    - Selecciona uno o más archivos en la lista y presiona "Eliminar Selección" para eliminarlos si es necesario.
 
 3. **Seleccionar Carpeta de Salida:**
+
    - Haz clic en "Seleccionar Carpeta de Destino" y selecciona la carpeta donde se guardarán los archivos convertidos.
 
 4. **Elegir el Formato de Salida:**
+
    - Selecciona el formato de salida deseado (WAV, MP3, FLAC) desde el menú desplegable.
 
 5. **Iniciar Conversión:**
+
    - Haz clic en el botón "Convertir" para comenzar la conversión. Se mostrará una barra de progreso indicando el avance.
 
 6. **Esperar y Revisar Resultados:**
@@ -349,6 +362,7 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 ---
 
 ## Capturas
+
 ![Captura de la Aplicación](assets/SSExtenSILA.png)
 
 ---
@@ -361,13 +375,12 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 
 ---
 
-## Requisitos del sistema para instalar el archivo .exe
-- **Sistema operativo:** Windows 7 o superior.
+## Requisitos del Sistema
 
-## Requisitos del sistema para el desarrollo
-- **Sistema operativo:** Windows 7 o superior.
-- Python 3.7 o superior.
-- PyQt5.
+- **Sistema Operativo:** Windows 7 o superior.
+- **Dependencias:**
+  - Python 3.7 o superior.
+  - PyQt5.
 
 ---
 
@@ -398,25 +411,31 @@ El objetivo de incluir esta opción es facilitar el uso de SILA-Project dentro d
 La interfaz de usuario de **SILA KeyMap** se compone de varios elementos:
 
 - **Título y Descripción:**
+
   - Muestra el título de la aplicación y las instrucciones de uso.
 
 - **Estado:**
+
   - Indica el estado actual de la captura de teclas (activa/inactiva).
 
 - **Botones:**
+
   - **Iniciar Captura:** Comienza a capturar las pulsaciones de las teclas.
   - **Salir:** Cierra la aplicación.
 
 - **Selector de Puerto MIDI:**
+
   - Permite seleccionar un puerto MIDI disponible.
 
 - **Controles de Instrumento:**
+
   - **Instrumento MIDI:** Control deslizante para seleccionar el instrumento.
   - **Velocidad:** Control deslizante para ajustar la velocidad de las notas MIDI.
   - **Volumen Maestro:** Control deslizante para ajustar el volumen general.
   - **Octava:** Control deslizante para ajustar la octava de las notas.
 
 - **Visualizador de Teclas Activas:**
+
   - Muestra las teclas que están actualmente activas.
 
 - **Visualizador de Notas:**
@@ -425,15 +444,19 @@ La interfaz de usuario de **SILA KeyMap** se compone de varios elementos:
 ### Pasos para Usar la Aplicación
 
 1. **Seleccionar Puerto MIDI:**
+
    - Elige un puerto MIDI de la lista desplegable.
 
 2. **Iniciar Captura:**
+
    - Haz clic en el botón "Iniciar Captura" para comenzar a capturar las pulsaciones de las teclas.
 
 3. **Presionar Teclas:**
+
    - Presiona las teclas de "a" a "z" para enviar mensajes MIDI.
 
 4. **Ajustar Controles:**
+
    - Modifica los controles para el instrumento, velocidad y volumen según sea necesario.
 
 5. **Finalizar:**
@@ -442,6 +465,7 @@ La interfaz de usuario de **SILA KeyMap** se compone de varios elementos:
 ---
 
 ## Capturas
+
 ![Captura de la Aplicación](assets/SSSILAKeyMap.png)
 
 ---
@@ -449,15 +473,19 @@ La interfaz de usuario de **SILA KeyMap** se compone de varios elementos:
 ## Preguntas Frecuentes (FAQ)
 
 1. **¿Cómo puedo cambiar el instrumento MIDI?**
+
    - Puedes ajustar el instrumento MIDI utilizando el control deslizante "Instrumento MIDI". Simplemente mueve el control para seleccionar el instrumento deseado.
 
 2. **¿Por qué no puedo ver ningún puerto MIDI disponible?**
+
    - Asegúrate de que tu dispositivo MIDI esté correctamente conectado y que los controladores estén instalados. La aplicación mostrará "No hay puertos MIDI disponibles" si no encuentra ninguno.
 
 3. **¿Qué teclas están mapeadas a las notas MIDI?**
+
    - Las teclas de "q" a "m" están mapeadas a varias notas MIDI en la octava correspondiente. Puedes consultar el código fuente para ver la asignación exacta.
 
 4. **¿Puedo utilizar otros teclados además del que tengo conectado?**
+
    - Sí, puedes utilizar cualquier teclado que esté configurado como un dispositivo de entrada en tu sistema, siempre que se reconozca como un dispositivo MIDI.
 
 5. **¿Qué hacer si la aplicación no responde?**
@@ -465,14 +493,12 @@ La interfaz de usuario de **SILA KeyMap** se compone de varios elementos:
 
 ---
 
-## Requisitos del sistema para instalar el archivo .exe
-- **Sistema operativo:** Windows 7 o superior.
+## Requisitos del Sistema
 
-## Requisitos del sistema para el desarrollo
-- **Sistema operativo:** Windows 7 o superior.
-- Python 3.7 o superior.
-- PyQt5.
-- Bibliotecas necesarias para MIDI y GUI.
+- **Sistema Operativo:** Windows 7 o superior.
+- **Dependencias:**
+  - Python 3.7 o superior.
+  - Bibliotecas necesarias para MIDI y GUI.
 
 ---
 
@@ -502,6 +528,7 @@ La interfaz de usuario de **SILA KeyMap** se compone de varios elementos:
 La interfaz de **SoundWIDI** se divide en dos secciones principales: el panel de control y el área de gráficos.
 
 - **Panel de Control:**
+
   - **Seleccionar Programa:** Permite elegir entre las aplicaciones abiertas en el sistema. Usa la barra de búsqueda para filtrar las aplicaciones.
   - **Latencia:** Control deslizante para ajustar la latencia en milisegundos.
   - **Botones de Inicio y Detención:**
@@ -510,6 +537,7 @@ La interfaz de **SoundWIDI** se divide en dos secciones principales: el panel de
   - **Guardar PDF / Cargar Sesión:** Botones para guardar la sesión actual en un archivo PDF o cargar una sesión previamente guardada.
 
 - **Área de Gráficos:**
+
   - **Gráfico de Forma de Onda:** Muestra la forma de onda del audio capturado.
   - **Espectrograma:** Visualiza la frecuencia del audio a lo largo del tiempo.
   - **Histograma de Notas:** Muestra la frecuencia de las notas capturadas en el audio.
@@ -520,21 +548,27 @@ La interfaz de **SoundWIDI** se divide en dos secciones principales: el panel de
 ### Pasos para Usar la Aplicación
 
 1. **Seleccionar Programa:**
+
    - Elige una aplicación de la lista desplegable o usa la barra de búsqueda para localizarla.
 
 2. **Configurar Latencia:**
+
    - Ajusta el control deslizante de latencia según tus preferencias.
 
 3. **Iniciar Monitoreo:**
+
    - Haz clic en "Iniciar" para comenzar a capturar el audio.
 
 4. **Analizar Gráficos:**
+
    - Observa los gráficos en tiempo real para analizar el audio.
 
 5. **Guardar Sesión:**
+
    - Haz clic en "Guardar PDF" para exportar los resultados.
 
 6. **Cargar Sesión:**
+
    - Usa el botón "Cargar Sesión" para revisar sesiones anteriores.
 
 7. **Detener Monitoreo:**
@@ -543,6 +577,7 @@ La interfaz de **SoundWIDI** se divide en dos secciones principales: el panel de
 ---
 
 ## Capturas
+
 ![Captura de la Aplicación](assets/SSSoundWIDI.png)
 
 ---
@@ -550,15 +585,19 @@ La interfaz de **SoundWIDI** se divide en dos secciones principales: el panel de
 ## Preguntas Frecuentes (FAQ)
 
 1. **¿Qué hacer si el programa no detecta aplicaciones abiertas?**
+
    - Asegúrate de que las aplicaciones estén ejecutándose y que tengas los permisos necesarios para acceder a ellas.
 
 2. **¿Puedo ajustar la calidad del audio capturado?**
+
    - La calidad del audio se puede ajustar a través del control deslizante de latencia. Un valor más bajo reducirá la latencia, pero podría aumentar el uso de recursos.
 
 3. **¿Cómo guardo una sesión?**
+
    - Haz clic en el botón "Guardar PDF" y elige la ubicación donde deseas guardar el archivo. La sesión se guardará como un documento PDF que incluye gráficos de la forma de onda, espectrograma y el histograma de notas.
 
 4. **¿Puedo cargar sesiones guardadas?**
+
    - Sí, puedes cargar sesiones previamente guardadas haciendo clic en el botón "Cargar Sesión" y seleccionando el archivo correspondiente.
 
 5. **¿Qué hago si encuentro errores durante la ejecución?**
@@ -566,14 +605,12 @@ La interfaz de **SoundWIDI** se divide en dos secciones principales: el panel de
 
 ---
 
-## Requisitos del sistema para instalar el archivo .exe
-- **Sistema operativo:** Windows 7 o superior.
+## Requisitos del Sistema
 
-## Requisitos del sistema para el desarrollo
-- **Sistema operativo:** Windows 7 o superior.
-- Python 3.7 o superior.
-- PyQt5.
-- Bibliotecas necesarias para análisis de audio y visualización gráfica.
+- **Sistema Operativo:** Windows 10 o superior.
+- **Dependencias:**
+  - Python 3.8 o superior.
+  - Bibliotecas necesarias para análisis de audio y visualización gráfica.
 
 ---
 
@@ -605,6 +642,7 @@ La interfaz de **SoundWIDI** se divide en dos secciones principales: el panel de
 La interfaz se divide en tres secciones principales:
 
 1. **Panel Izquierdo:** Contiene controles para seleccionar dispositivos de entrada y salida, así como controles de volumen y balance.
+
    - **Dispositivos de Entrada:** Un menú desplegable para seleccionar el dispositivo de entrada de audio.
    - **Dispositivos de Salida:** Un menú desplegable para seleccionar el dispositivo de salida de audio.
    - **Controles de Volumen y Balance:** Deslizadores para ajustar el volumen y el balance de audio.
@@ -621,18 +659,23 @@ La interfaz se divide en tres secciones principales:
 ### Uso
 
 1. **Seleccionar Dispositivos:**
+
    - Usa los menús desplegables en el panel izquierdo para seleccionar los dispositivos de entrada y salida deseados.
 
 2. **Ajustar Volumen y Balance:**
+
    - Mueve los deslizadores para ajustar el volumen y el balance de audio a tu preferencia.
 
 3. **Silenciar/Reactiva el Audio:**
+
    - Presiona el botón "Silenciar" para silenciar el audio; el texto cambiará a "Reactivar" para volver a activar el audio.
 
 4. **Probar Audio:**
+
    - Presiona el botón "Probar Audio" para reproducir una señal de prueba y asegurarte de que el audio esté funcionando correctamente.
 
 5. **Guardar Configuración:**
+
    - Haz clic en "Guardar Configuración" para guardar la configuración actual en el historial.
 
 6. **Aplicar Configuración del Historial:**
@@ -645,6 +688,7 @@ Para cerrar la aplicación, simplemente ciérrala desde la esquina superior dere
 ---
 
 ## Capturas
+
 ![Captura de la Aplicación](assets/SSSILAJackBay.png)
 
 ---
@@ -652,9 +696,11 @@ Para cerrar la aplicación, simplemente ciérrala desde la esquina superior dere
 ## Preguntas Frecuentes (FAQ)
 
 1. **¿Cómo puedo seleccionar un dispositivo de entrada o salida?**
+
    - Ve a los menús desplegables en el panel izquierdo y selecciona el dispositivo deseado. Asegúrate de que el dispositivo tenga canales disponibles.
 
 2. **¿Qué debo hacer si no escucho ningún sonido?**
+
    - Verifica que el dispositivo de salida esté correctamente seleccionado y que el volumen no esté en silencio. También puedes probar la señal de audio usando el botón "Probar Audio".
 
 3. **¿Cómo puedo guardar una configuración?**
@@ -662,17 +708,17 @@ Para cerrar la aplicación, simplemente ciérrala desde la esquina superior dere
 
 ---
 
-## Requisitos del sistema para instalar el archivo .exe
-- **Sistema operativo:** Windows 7 o superior.
+## Requisitos del Sistema
 
-## Requisitos del sistema para el desarrollo
-- **Sistema operativo:** Windows 7 o superior.
-- Python 3.7 o superior.
-- PyQt5.
-- Bibliotecas necesarias para manejo de audio y visualización gráficas
+- **Sistema Operativo:** Windows 10 o superior.
+- **Dependencias:**
 
- ---
-EXTRA
+  - Python 3.8 o superior.
+  - Bibliotecas necesarias para manejo de audio y visualización gráficas
+
+  ***
+
+  EXTRA
 
 # Instrument Combo by SILA
 
@@ -684,49 +730,55 @@ Aquí encontrarás una lista de instrumentos virtuales que el equipo de SILA Pro
 
 ### Avisos Legales
 
-1. Todos los instrumentos mencionados aquí son propiedad de sus respectivos desarrolladores.  
-2. SILA Project no tiene afiliación con las herramientas listadas ni se responsabiliza de su uso.  
-3. Revisa las licencias de uso de cada herramienta antes de implementarlas en tus proyectos.  
+1. Todos los instrumentos mencionados aquí son propiedad de sus respectivos desarrolladores.
+2. SILA Project no tiene afiliación con las herramientas listadas ni se responsabiliza de su uso.
+3. Revisa las licencias de uso de cada herramienta antes de implementarlas en tus proyectos.
 
 ### Lista de Instrumentos Recomendados
 
-1. **[Surge](https://surge-synthesizer.github.io/)**  
-   - **Descripción:** Surge es un sintetizador híbrido gratuito y de código abierto con una amplia gama de posibilidades sonoras.  
-   - **Desarrollador:** Surge Synth Team  
+1. **[Surge](https://surge-synthesizer.github.io/)**
+
+   - **Descripción:** Surge es un sintetizador híbrido gratuito y de código abierto con una amplia gama de posibilidades sonoras.
+   - **Desarrollador:** Surge Synth Team
      ![SILA-Projecticon](assets/surge.png)
 
-2. **[LABS](https://labs.spitfireaudio.com/download)**  
-   - **Descripción:** Una colección de instrumentos experimentales y únicos desarrollados por Spitfire Audio.  
-   - **Desarrollador:** Spitfire Audio  
+2. **[LABS](https://labs.spitfireaudio.com/download)**
+
+   - **Descripción:** Una colección de instrumentos experimentales y únicos desarrollados por Spitfire Audio.
+   - **Desarrollador:** Spitfire Audio
      ![SILA-Projecticon](assets/LABS.PNG)
 
-3. **[Dexed](https://asb2m10.github.io/dexed/)**  
-   - **Descripción:** Emulación del famoso sintetizador Yamaha DX7, ideal para sonidos clásicos de FM.  
-   - **Desarrollador:** Digital Suburban  
+3. **[Dexed](https://asb2m10.github.io/dexed/)**
+
+   - **Descripción:** Emulación del famoso sintetizador Yamaha DX7, ideal para sonidos clásicos de FM.
+   - **Desarrollador:** Digital Suburban
      ![SILA-Projecticon](assets/94388107-0e8f9380-011a-11eb-86dc-7a84a26e3ebb.png)
 
-4. **[Keyzone Classic](https://plugins4free.com/plugin/2848/)**  
-   - **Descripción:** Un piano virtual que incluye sonidos de piano acústico y eléctrico.  
-   - **Desarrollador:** Bitsonic  
+4. **[Keyzone Classic](https://plugins4free.com/plugin/2848/)**
+
+   - **Descripción:** Un piano virtual que incluye sonidos de piano acústico y eléctrico.
+   - **Desarrollador:** Bitsonic
      ![SILA-Projecticon](assets/keyzoneclassic_big.jpg)
 
-5. **[GR-8](https://plugins4free.com/plugin/3491/)**  
-   - **Descripción:** Un sintetizador virtual potente y versátil con múltiples osciladores.  
-   - **Desarrollador:** Phuturetone  
+5. **[GR-8](https://plugins4free.com/plugin/3491/)**
+
+   - **Descripción:** Un sintetizador virtual potente y versátil con múltiples osciladores.
+   - **Desarrollador:** Phuturetone
      ![SILA-Projecticon](assets/gr-8-synth-1024x597.png)
 
-6. **[Sonigen Modular](https://plugins4free.com/plugin/1005/)**  
-   - **Descripción:** Un sintetizador modular donde puedes construir tus propios sonidos desde cero.  
-   - **Desarrollador:** Sonigen  
+6. **[Sonigen Modular](https://plugins4free.com/plugin/1005/)**
+
+   - **Descripción:** Un sintetizador modular donde puedes construir tus propios sonidos desde cero.
+   - **Desarrollador:** Sonigen
      ![SILA-Projecticon](assets/sonigen-sonigen-modular-117382.jpg)
 
-7. **[Substitute](https://plugins4free.com/plugin/3918/)**  
-   - **Descripción:** Un sintetizador basado en formas de onda y síntesis wavetable.  
-   - **Desarrollador:** de la Mancha  
+7. **[Substitute](https://plugins4free.com/plugin/3918/)**
+
+   - **Descripción:** Un sintetizador basado en formas de onda y síntesis wavetable.
+   - **Desarrollador:** de la Mancha
      ![SILA-Projecticon](assets/GR8.jpg)
 
-8. **[Vital](https://vital.audio/)**  
-   - **Descripción:** Un sintetizador avanzado de tablas de ondas con una interfaz intuitiva y potente.  
-   - **Desarrollador:** Matt Tytel  
-     ![SILA-Projecticon](assets/vital_screenshot_1080.png)  
-
+8. **[Vital](https://vital.audio/)**
+   - **Descripción:** Un sintetizador avanzado de tablas de ondas con una interfaz intuitiva y potente.
+   - **Desarrollador:** Matt Tytel
+     ![SILA-Projecticon](assets/vital_screenshot_1080.png)
